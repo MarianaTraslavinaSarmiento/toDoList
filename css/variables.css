@@ -1,0 +1,14 @@
+@font-face {
+    font-family: caveatRegular;
+    src: url(../storage/fonts/Caveat-VariableFont_wght.ttf);
+}
+
+:root{
+
+    --color-pink: #EE889A;
+    --color-background: #25282A;
+    --color-main: #1E2122;
+    --color-text: #52575A;
+    --color-items: #444C4E;
+
+}
