@@ -6,3 +6,91 @@
     margin: 0;
     font-family: caveatRegular;
 }
+
+body{
+
+    background-color: var(--color-background);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main{
+
+    background-color: var(--color-main);
+    width: 40%;
+    height: 60%;
+    box-shadow: 0px 0px 10px var(--color-black);
+    border-radius: 20px;
+}
+
+header{
+
+    height: 15%;
+    display: flex;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header h1{
+
+    color: var(--color-title)
+
+}
+
+
+header button{
+
+    display: flex;
+    background-color: var(--color-items);
+    border: none;
+    height: 30%;
+    width: 15%;
+    color: var(--color-title);
+    font-size: 1.5em;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.dotted-line{
+
+    border: 1px dotted var(--color-gray)
+}
+
+.list__of__tasks{
+
+    height: 70%;
+}
+
+.type__tasks{
+
+    height: 15%;
+    padding: 20px 30px 20px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.type__tasks .input__tasks{
+
+    width: 75%;
+    font-size: 1.5em;
+    border-radius: 15px;
+    background-color: var(--color-main);
+    border: none;
+    
+}
+
+.add__task__button{
+    width: 20%;
+    border-radius: 30px;
+    background-color: var(--color-pink);
+    border: none;
+    font-size: 1.5em
+}
